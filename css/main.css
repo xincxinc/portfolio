@@ -1,0 +1,322 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: rgb(255, 255, 255);
+}
+
+/* -------------------------------------- header ----------------------------------------- */
+header{
+  height: 14vh;
+  font-family: 'Cormorant Garamond', serif;  
+  font-weight: 500;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+#navbar{
+  transition: top 0.3s;
+}
+.topnav {
+  margin-top: 20px;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #605B5B;
+  padding: 30px 60px 30px 0;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  color: rgb(24, 24, 24);
+}
+.topnav a:active {
+  color: white;
+}
+.defineME p{
+  margin-top: 18vh;
+  font-family: 'Caveat', cursive;
+  font-size: 40px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+/* scroll spy*/
+#section1, #section2, #section3, #section4{
+  height: 420px;
+  font-family: 'Cormorant Garamond', serif;  
+
+}
+.list-group{
+  position: sticky; /* Supported in latest version of Chrome, Firefox, Safari, Opera and Edge browsers */
+  top: 40vh;
+}
+.dot{
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 15px 0px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  transition: background-color 0.6s ease;
+}
+.list-group-item{
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(224, 222, 222);
+  font-weight: 700;
+  font-family: 'Cormorant Garamond', serif;
+}
+.dot.active, .list-group-item.active{
+  background-color: rgba(0, 0, 0, 0);
+  color: #605B5B;
+}
+
+
+.pjt-intro-1{
+  background-image: linear-gradient(rgba(1, 0, 30, 0.253), rgba(0, 0, 0, 0.26)), url("/img/apeer-hero-img.png");
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 3px 6px 1px rgba(0, 0, 0, 0.096), 0 2px 6px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  height: 300px;
+  margin: 20px 0;
+}
+.pjt-intro-2{
+  background-image: url("/img/donut-hero.png");
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 3px 6px 1px rgba(0, 0, 0, 0.096), 0 2px 6px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  height: 300px;
+  margin: 20px 0;
+}
+.pjt-intro-3{
+  background-image: url("/img/p10_aset.jpg");
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 3px 6px 1px rgba(0, 0, 0, 0.096), 0 2px 6px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  height: 300px;
+  margin: 20px 0;
+}
+.pjt-intro-4{
+  background-image: url("/img/sos_use02.jpg");
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 3px 6px 1px rgba(0, 0, 0, 0.096), 0 2px 6px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  height: 300px;
+  margin: 20px 0;
+}
+h3{
+  font-family: 'Caveat', cursive;
+}
+#bootstrap-overrides nav{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/*----------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~project style---------------------------------*/
+.apeer-hero-image{
+  background-image: url("/img/apeer-hero-img.png");
+  height: 100vh;
+  background-color: aliceblue;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.donut-hero-image{
+  background-image: url("/img/donut-hero.png");
+  height: 100vh;
+  background-color: aliceblue;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.exmu-hero-image{
+  background-image: url("/img/p10_aset.jpg");
+  height: 100vh;
+  background-color: aliceblue;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.sos-hero-image{
+  background-image: url("/img/sos_use02.jpg");
+  height: 100vh;
+  background-color: aliceblue;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.row{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+h2, h4, h5, h6, li{
+  font-family: 'Cormorant Garamond', serif;
+
+}
+h6{
+  font-weight: 500;
+  font-size: 19px;
+  letter-spacing: 0.1px;
+}
+p, li{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 19px;
+  letter-spacing: 0.25px;
+}
+small{
+  font-size: 13px;
+}
+video{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+img{
+  width: 100%;
+}
+
+
+
+
+/* ------------------------------------flip card----------------------------------------------*/
+.flip-card {
+  margin: 10px;
+  padding: 5px;
+  background-color: transparent;
+  width: 250px;
+  height: 250px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  /*box-shadow:0 2px 3px 1px  rgba(0, 0, 0, 0.096);*/
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  color: black;
+  background-color: rgb(246, 241, 247);
+  background-image: linear-gradient(rgb(226, 229, 245), rgb(247, 242, 248));
+  border-radius: 4px;
+}
+
+.flip-card-front h3{
+  line-height: 240px;
+}
+
+.flip-card-back {
+  background-color: #fbf6fc;
+  border-radius: 4px;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back p{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+/*--------------------------------------------Modal-------------------------------------------*/
+
+.modal-card {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  padding: 5px;
+  background-color: #fbf6fc8a;
+}
+.modal-card img{
+  padding: 20px;
+  max-height: 250px;
+
+}
+.modal-card img:hover{
+  cursor: pointer;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~other necessary things~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgba(255, 255, 255, 0.521); /* Set a background color */
+  color: #605B5B; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  border-radius: 50%; /* Rounded corners */
+  font-size: 20px; /* Increase font size */
+  line-height: 20px;
+  font-family: 'Caveat', cursive;
+
+}
+
+#myBtn:hover {
+  background-color: rgba(0, 0, 0, 0.884); /* Add a dark-grey background on hover */
+  color: #ececec;
+}
+
+footer{
+  font-size: 14px;
+  font-weight: 200;
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 1px;
+  height: 100px;
+}
+
+
+  
+  .video-responsive-container iframe, .video-responsive-container object, .video-responsive-container embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  }
+
+
+
