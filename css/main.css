@@ -80,7 +80,7 @@ header{
 
 
 .pjt-intro-1{
-  background-image: linear-gradient(rgba(1, 0, 30, 0.253), rgba(0, 0, 0, 0.26)), url("/img/apeer-hero-img.png");
+  background-image: linear-gradient(rgba(1, 0, 30, 0.253), rgba(0, 0, 0, 0.26)), url("img/apeer-hero-img.png");
   background-position: center;
   background-size: cover;
   box-shadow: 0 3px 6px 1px rgba(0, 0, 0, 0.096), 0 2px 6px 0 rgba(0, 0, 0, 0.25);
@@ -89,7 +89,7 @@ header{
   margin: 20px 0;
 }
 .pjt-intro-2{
-  background-image: url("/img/donut-hero.png");
+  background-image: url("img/donut-hero.png");
   background-position: center;
   background-size: cover;
   box-shadow: 0 3px 6px 1px rgba(0, 0, 0, 0.096), 0 2px 6px 0 rgba(0, 0, 0, 0.25);
@@ -98,7 +98,7 @@ header{
   margin: 20px 0;
 }
 .pjt-intro-3{
-  background-image: url("/img/p10_aset.jpg");
+  background-image: url("img/p10_aset.jpg");
   background-position: center;
   background-size: cover;
   box-shadow: 0 3px 6px 1px rgba(0, 0, 0, 0.096), 0 2px 6px 0 rgba(0, 0, 0, 0.25);
@@ -107,7 +107,7 @@ header{
   margin: 20px 0;
 }
 .pjt-intro-4{
-  background-image: url("/img/sos_use02.jpg");
+  background-image: url("img/sos_use02.jpg");
   background-position: center;
   background-size: cover;
   box-shadow: 0 3px 6px 1px rgba(0, 0, 0, 0.096), 0 2px 6px 0 rgba(0, 0, 0, 0.25);
@@ -126,7 +126,7 @@ h3{
 
 /*----------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~project style---------------------------------*/
 .apeer-hero-image{
-  background-image: url("/img/apeer-hero-img.png");
+  background-image: url("img/apeer-hero-img.png");
   height: 100vh;
   background-color: aliceblue;
   background-position: center;
@@ -135,7 +135,7 @@ h3{
   position: relative;
 }
 .donut-hero-image{
-  background-image: url("/img/donut-hero.png");
+  background-image: url("img/donut-hero.png");
   height: 100vh;
   background-color: aliceblue;
   background-position: center;
@@ -144,7 +144,7 @@ h3{
   position: relative;
 }
 .exmu-hero-image{
-  background-image: url("/img/p10_aset.jpg");
+  background-image: url("img/p10_aset.jpg");
   height: 100vh;
   background-color: aliceblue;
   background-position: center;
@@ -153,7 +153,7 @@ h3{
   position: relative;
 }
 .sos-hero-image{
-  background-image: url("/img/sos_use02.jpg");
+  background-image: url("img/sos_use02.jpg");
   height: 100vh;
   background-color: aliceblue;
   background-position: center;
