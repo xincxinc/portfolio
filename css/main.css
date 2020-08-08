@@ -90,43 +90,6 @@ h3{
 }
 
 /*----------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~project style---------------------------------*/
-.apeer-hero-image{
-  background-image: url("img/apeer-hero-img.png");
-  height: 100vh;
-  background-color: aliceblue;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-.donut-hero-image{
-  background-image: url("img/donut-hero.png");
-  height: 100vh;
-  background-color: aliceblue;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-.exmu-hero-image{
-  background-image: url("img/p10_aset.jpg");
-  height: 100vh;
-  background-color: aliceblue;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-.sos-hero-image{
-  background-image: url("img/sos_use02.jpg");
-  height: 100vh;
-  background-color: aliceblue;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
 .row{
   padding-top: 100px;
   padding-bottom: 100px;
