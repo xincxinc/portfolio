@@ -27,9 +27,8 @@
         <link rel="shortcut icon" type="image/png" href="img/favicon-01.png">
 
         <!-- FONT -->
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Literata:400,400i,700,700i&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Proza+Libre:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
         <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -43,46 +42,46 @@
 
 
         <style>
-            .pjt-intro-1{
+            .pjt-img-1{
               background-image: linear-gradient(rgba(1, 0, 30, 0.253), rgba(0, 0, 0, 0.26)), url("img/apeer-hero-img.png");
               background-position: center;
               background-size: cover;
-              box-shadow: 0 3px 6px 1px rgba(0, 0, 0, 0.096), 0 2px 6px 0 rgba(0, 0, 0, 0.25);
-              border-radius: 3px;
+              border: 1px solid rgb(202, 202, 202);
+              border-radius: 4px;
               height: 300px;
-              margin: 20px 0;
+              margin-bottom: 20px;
             }               
-            .pjt-intro-2{
+            .pjt-img-2{
               background-image: url("img/donut-hero.png");
               background-position: center;
               background-size: cover;
-              box-shadow: 0 3px 6px 1px rgba(0, 0, 0, 0.096), 0 2px 6px 0 rgba(0, 0, 0, 0.25);
-              border-radius: 3px;
+              border: 1px solid rgb(202, 202, 202);
+              border-radius: 4px;
               height: 300px;
-              margin: 20px 0;
+              margin-bottom: 20px;
             }
-            .pjt-intro-3{
+            .pjt-img-3{
               background-image: url("img/p10_aset.jpg");
               background-position: center;
               background-size: cover;
-              box-shadow: 0 3px 6px 1px rgba(0, 0, 0, 0.096), 0 2px 6px 0 rgba(0, 0, 0, 0.25);
-              border-radius: 3px;
+              border: 1px solid rgb(202, 202, 202);
+              border-radius: 4px;
               height: 300px;
-              margin: 20px 0;
+              margin-bottom: 20px;
             }
-            .pjt-intro-4{
+            .pjt-img-4{
               background-image: url("img/sos_use02.jpg");
               background-position: center;
               background-size: cover;
-              box-shadow: 0 3px 6px 1px rgba(0, 0, 0, 0.096), 0 2px 6px 0 rgba(0, 0, 0, 0.25);
-              border-radius: 3px;
+              border: 1px solid rgb(202, 202, 202);
+              border-radius: 4px;
               height: 300px;
-              margin: 20px 0;
+              margin-bottom: 20px;
             }
         </style>
     </head>
 
-    <body id="bootstrap-overrides" style="position: relative;" data-spy="scroll" data-offset="400" data-target="#myScrollspy">       
+    <body id="bootstrap-overrides">       
         <nav class="navbar navbar-expand-md navbar-light fixed-top">
             <a href="index.html" class="navbar-brand"><img src="img/logo10-01.svg" style="width: 50px; padding-left: 0.5vw;" alt=""></a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -90,7 +89,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav" style="font-family: 'Cormorant Garamond', serif;">
+                <div class="navbar-nav">
                 </div>
                 <div class="navbar-nav ml-auto">
                     <a href="index.html" class="nav-item nav-link active">Work</a>
@@ -98,91 +97,78 @@
                 </div>
             </div>
         </nav>
-        <div class="container">
-            <!--
-            <header id="navbar">
-                <nav class="topnav">
-                    <a class="nav-link" href="index.html" style="font-family: 'Caveat', cursive; font-size: 20px;">Chen Xin</a>
-                    <a class="nav-link" href="index.html">Work</a>
-                    <a class="nav-link" href="me.html">Me</a>
-                </nav>
-            </header>-->
 
+        <div class="container">
             <div class="row">
-                <div class="defineME col-md-7">
-                    <p>Hi, I'm Chen Xin, a product designer. <br>I believe it's insights that drive innovation.</p>
+                <div class="defineME col-md-12">
+                    <h1>Hi, I'm Chen Xin, a product designer. <br>I believe it's insights that drive innovation.</h1>
                 </div>
             </div>
 
-
-            <!-- scrollspy start-->
-            <div class="row">              
-                <div class="col-sm-11">
-                    <div id="section1">
+            <!--project-->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="pjt-card">
                         <a href="apeer.html">
-                        <div class="pjt-intro-1">
-                            <div style="height: 80px;"><img src="img/zeiss-logo-rgb.png" style="width: 100px; position: absolute; left: 25px; top: 25px;"></div>
-                        </div>
+                            <div class="pjt-img-1">
+                                <div style="height: 80px;"><img src="img/zeiss-logo-rgb.png" style="width: 100px; position:     absolute; left: 25px; top: 25px;"></div>
+                            </div>
                         </a>
-                        <h4>Apeer: Image Analysis Platform for Microscopy</h4>
-                        <h6>/UIUX, Design System/</h6>
+                        <h6>Apeer - Image Analysis Platform for Microscopy</h6>
+                        <p>· UI/UX · Design System ·</p>
+                        <hr>
                     </div>
-
-                    <div id="section2">
+                </div>
+                <div class="col-md-6">
+                    <div class="pjt-card">
                         <a href="donutplan.html">
-                            <div class="pjt-intro-2">
+                            <div class="pjt-img-2">
 
                             </div>
                         </a>
-                        <h4>Donut Plan</h4>
-                        <h6>/App Design/</h6>
+                        <h6>Donut Plan</h6>
+                        <p>· App Design ·</p>
+                        <hr>
                     </div>
-
-                    <div id="section3">
+                </div>
+                <div class="col-md-6">
+                    <div class="pjt-card">
                         <a href="exmu.html">
-                            <div class="pjt-intro-3">
+                            <div class="pjt-img-3">
 
                             </div>
                         </a>
-                        <h4>Exploring Music</h4>
-                        <h6>/Innovation and Trend Analysis/</h6>
+                        <h6>Exploring Music</h6>
+                        <p>· Innovation and Trend Analysis · Conceptual Design ·</p>
+                        <hr>
                     </div>
-
-                    <div id="section4">
+                </div>
+                <div class="col-md-6">
+                    <div class="pjt-card">
                         <a href="sliceofsweat.html">
-                            <div class="pjt-intro-4">
+                            <div class="pjt-img-4">
 
                             </div>
                         </a>
-                        <h4>Slice of Sweat</h4>
-                        <h6>/Innovative Product/</h6>
-                    </div>
-
-                    
-                </div>
-
-                <div class="col-sm-1" id="myScrollspy">
-                    <div class="list-group">
-                        <a class="list-group-item list-group-item-action active" href="#section1">01</a>
-                        <a class="list-group-item list-group-item-action" href="#section2">02</a>
-                        <a class="list-group-item list-group-item-action" href="#section3">03</a>
-                        <a class="list-group-item list-group-item-action" href="#section4">04</a>
+                        <h6>Slice of Sweat</h6>
+                        <p>· Innovative Product ·</p>
+                        <hr>
                     </div>
                 </div>
+
             </div>    
-            <!-- scrollspy end-->
+            <!--Project-->
 
         </div>
 
         
-
-        <hr>
-        <div class="container">
-            <footer>
-                Copyright © 2020 Chen Xin.<br>
-                All rights reserved.
-            </footer>
-            
-        </div>
+        <footer>
+            <div class="container">
+                <span style="float: left;">Copyright © 2020 Chen Xin.<br>
+                All rights reserved.</span>
+                <span style="float: right;"><a href="mailto:mia.c.xin@gmail.com">Contact</a><br>
+                    <a href="linkedin.com/in/chen-xin-2019">LinkedIn</a></span>
+            </div>
+        </footer>
     </body>
 </html>
