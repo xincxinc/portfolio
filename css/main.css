@@ -13,6 +13,7 @@ body{
   font-weight: 300;
 }
 
+
 .defineME{
   margin-top: 32px;
   /*font-family: 'Caveat', cursive;*/
@@ -53,9 +54,10 @@ b{
   font-weight: 500;
 }
 a{
-  color: rgb(111, 181, 199);
+  color: #ae3299;
   text-decoration: none;
 }
+
 small{
   font-size: 12px;
 }
@@ -133,14 +135,14 @@ hr{
 
 .flip-card-back {
   background-color: rgb(246, 241, 247);
-  background-image: linear-gradient(rgb(104, 112, 155), rgb(110, 135, 145));
+  background-image: linear-gradient( #bb9f91, #aa8776);
   border-radius: 4px;
   transform: rotateY(180deg);
 }
 
 .flip-card-back p{
   font-size: 14px;
-  color: aliceblue;
+  color: #fff5fd;
   margin: 0;
   position: absolute;
   top: 50%;
@@ -208,7 +210,10 @@ footer{
   background-color: black;
   padding: 16px 0;
 }
+footer a{
+  color: #aaaaaa;
 
+}
 
   
   .video-responsive-container iframe, .video-responsive-container object, .video-responsive-container embed {
