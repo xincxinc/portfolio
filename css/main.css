@@ -123,8 +123,9 @@ hr{
 
 .flip-card-front {
   color: rgb(201, 201, 201);
-  border: 1px solid rgb(226, 226, 226);
+  border: 1px solid #db9b7a;
   background-color: rgb(255, 255, 255);
+  background-image: linear-gradient( #bb9f91, #cf9c82);
   border-radius: 4px;
 }
 
@@ -134,8 +135,8 @@ hr{
 }
 
 .flip-card-back {
-  background-color: rgb(246, 241, 247);
-  background-image: linear-gradient( #bb9f91, #aa8776);
+  background-color: rgba(40, 0, 49, 0.712);
+  
   border-radius: 4px;
   transform: rotateY(180deg);
 }
@@ -162,7 +163,7 @@ hr{
   margin: 15px;
   padding: 0px;
   background-color: #ffffff;
-  border: 1px solid rgb(226, 226, 226);
+  border: 1px solid #db9b7a;
   border-radius: 4px;
 }
 .modal-card img{
