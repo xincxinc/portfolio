@@ -8,26 +8,20 @@ html{
 }
 body{
   background-color: rgb(254, 254, 254);
-  color: #555555;
+  color: rgba(0,0,0,.9);
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
 }
 
 
-.defineME{
-  /*font-family: 'Caveat', cursive;*/
-  font-weight: 500;
-  
-}
 .defineME h1{
-  font-size: 6vw;
+  font-size: 4vw;
+  font-weight: 500;
   background: -webkit-linear-gradient(rgb(213, 224, 224), rgb(213, 215, 224), rgb(224, 213, 223));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-h1{
-  color: rgba(0, 0, 0, 0.932);
-}
+
 h3{
   /*font-family: 'Caveat', cursive;*/
 }
