@@ -45,6 +45,7 @@ h6{
 }
 p, li{
   font-family: 'Proza Libre', sans-serif;
+  /*font-family: 'Source Sans Pro', sans-serif;*/
   letter-spacing: 0.25px;
 }
 b{
