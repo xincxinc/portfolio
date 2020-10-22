@@ -7,57 +7,90 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  background-color: rgb(254, 254, 254);
+  background-color: rgb(240, 240, 240);
   color: rgba(0,0,0,.9);
-  font-family: 'Poppins', sans-serif;
-  font-weight: 300;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
 }
 
 
 .defineME h1{
-  font-size: 4vw;
-  font-weight: 500;
-  background: -webkit-linear-gradient(rgb(213, 224, 224), rgb(213, 215, 224), rgb(224, 213, 223));
+  font-size: 56px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: justify;
+  position: relative;
+  background: -webkit-linear-gradient(#dee4de, #e0dae2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-h3{
-  /*font-family: 'Caveat', cursive;*/
+.gradientbg{
+  background-image: url("/img/IMG_6418.jpg"); background-position: top; background-repeat: no-repeat; background-attachment: fixed; background-size: 100% 200px;
 }
+
 #bootstrap-overrides nav{
   font-size: 18px;
-  font-weight: 500;
 }
 
 .row{
   padding-top: 100px;
   padding-bottom: 100px;
 }
+h1{
+  font-weight: 900;
+  font-size: 60px;
+}
+h2{
+  font-weight: 700;
+  font-size: 40px;
+  font-style: italic;
+}
 
-h2, h4, h5, h6, li{
-
+h4{
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  margin: 16px 0;
+  color: #5e5e5e;
+}
+h5{
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  margin: 16px 0;
 }
 h6{
-  font-weight: 500;
-  font-size: 19px;
-  letter-spacing: 0.1px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+p.weak{
+  color: rgb(94, 94, 94);
+  letter-spacing: 0.6px;
+  font-weight: 400;
+  margin: 24px 0 4px 0;
+  
 }
 p, li{
-  font-family: 'Proza Libre', sans-serif;
-  /*font-family: 'Source Sans Pro', sans-serif;*/
   letter-spacing: 0.25px;
 }
 b{
-  font-weight: 500;
+  font-weight: 600;
 }
 a{
-  color: #ae3299;
+  color: rgba(0, 0, 0, 0.9);
+  text-decoration: none;
+}
+a:hover{
   text-decoration: none;
 }
 
 small{
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 video{
   width: 100%;
@@ -67,22 +100,29 @@ video{
 img{
   width: 100%;
 }
-hr{
-  border: 2px solid #555555;
+.overlinehr{
+  width: 48px;
+  height: 0.1px;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 
 
 /* ------------------------------------project card-------------------------------------------*/
 .pjt-card{
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 16px 0 rgba(0, 0, 0, 0.1);
 }
-.pjt-card p{
-  color: #7a7a7a;
+.pjt-content{
+  margin: 16px;
 }
-.pjt-card hr{
-  border: 1px solid rgb(211, 210, 210);
-  margin: 50px 0;
+.pjt-card:hover{
+  position: relative;
+  top: -8px;
+  transition: 0.3s;
+  box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.1), 0 14px 32px 0 rgba(0, 0, 0, 0.1);
 }
+
 
 
 
@@ -122,7 +162,7 @@ hr{
 .flip-card-front {
   color: rgb(126, 126, 126);
   border: 1px solid rgb(213, 224, 224);
-  background-color: rgb(213, 215, 224);
+  background-color: rgb(230, 230, 225);
   
   border-radius: 4px;
 }
@@ -174,18 +214,20 @@ hr{
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~other necessary things~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #myBtn {
+  height: 40px;
+  width: 40px;
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
+  bottom: 24px; /* Place the button at the bottom of the page */
+  right: 24px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: rgba(255, 255, 255, 0.521); /* Set a background color */
+  background-color: rgba(255, 255, 255); /* Set a background color */
   color: #605B5B; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 10px; /* Some padding */
-  border-radius: 50%; /* Rounded corners */
+  border-radius: 0; /* Rounded corners */
   font-size: 20px; /* Increase font size */
   line-height: 20px;
 }
